@@ -1,0 +1,166 @@
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(200, 200, 200, 0.65),
+      rgba(200, 200, 200, 0.65)
+    ),
+    url("img/logo veterinaria con nombre.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.fondo {
+  background-color: #fffff3;
+}
+
+#descripcion {
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  box-sizing: border-box;
+  color: #573529;
+  font-size: 50px;
+  font-family: "snap ITC";
+  margin: 30px 0px 50px;
+}
+
+.bienvenida {
+  display: grid;
+  place-items: center;
+  margin: 0px;
+}
+
+.formulario {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+}
+
+.input {
+  background-color: #8eb540;
+  width: 780px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(87, 53, 41);
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+
+.input-1 {
+  background-color: #8eb540;
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(87, 53, 41);
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+
+.input-2 {
+  background-color: #8eb540;
+  width: 380px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(87, 53, 41);
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+
+.label {
+  color: rgb(87, 53, 41);
+  font-family: "snap ITC";
+  font-size: 28px;
+}
+.label-1 {
+  color: rgb(87, 53, 41);
+  font-family: "snap ITC";
+  font-size: 28px;
+  text-align: center;
+}
+
+.label-2 {
+  color: rgb(87, 53, 41);
+  font-family: "snap ITC";
+  font-size: 28px;
+  margin-left: 325px;
+}
+
+.ul-botones {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.botones {
+  display: block;
+  text-align: center;
+}
+
+.links {
+  font-family: "snap ITC";
+}
+
+a:link {
+  color: rgb(87, 53, 41);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 5px;
+  margin: 20px 10px;
+}
+
+a:hover {
+  background-color: rgb(142, 181, 64);
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+a:visited {
+  color: rgb(87, 53, 41);
+}
+
+.manejo-errores {
+  display: inline-block;
+  visibility: hidden;
+  display: grid;
+  place-items: center;
+  border: 2px solid rgb(142, 181, 64);
+  background-color: rgb(255, 255, 243);
+}
+
+.texto-interno {
+  color: rgb(87, 53, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.salir-ventana-emergente,
+.botones-sistema {
+  border: 2px solid rgb(142, 181, 64);
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  background-color: rgb(142, 181, 64);
+  color: rgb(87, 53, 41);
+}
+
+.salir-ventana-emergente:hover,
+.botones-sistema:hover {
+  background-color: rgb(87, 53, 41);
+  color: rgb(142, 181, 64);
+  font-weight: bolder;
+}
+.botones-sistema {
+  margin: 0px 20px;
+}
