@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bienvenida</title>
+
+    <link
+      rel="shortcut icon"
+      href="img\logo veterinaria con nombre.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="mis_estilos.css" />
+  </head>
+
+  <body class="fondo">
+    <article class="bienvenida">
+      <h1 class="titulo">Bienvenido</h1>
+
+      <form action="" class="formulario">
+        <label for="email" class="label">Usuario: </label><br />
+        <input
+          type="email"
+          class="input"
+          id="email"
+          placeholder="Ingresa tú Email"
+        />
+        <br />
+
+        <label for="contrasena" class="label">Contraseña: </label><br />
+        <input
+          type="password"
+          class="input"
+          id="contrasena"
+          placeholder="Ingresa tú contraseña"
+        />
+        <br /><br />
+      </form>
+
+      <dialog class="manejo-errores" title="Advertencia">
+        <p class="texto-interno">La Contraseña o el Usuario no coinciden</p>
+        <button class="salir-ventana-emergente">Salir</button>
+      </dialog>
+
+      <p class="label-1">ó ingresa con</p>
+
+      <ul class="ul-botones">
+        <li>
+          <img src="img\google-mas.png" alt="icono de google mas" />
+        </li>
+
+        <li>
+          <img src="img\facebook.png" alt="icono de facebook" />
+        </li>
+      </ul>
+
+      <br /><br />
+
+      <article class="botones">
+        <button class="botones-sistema">Ingresar</button>
+        <button class="botones-sistema">Cerrar</button>
+      </article>
+      <br /><br />
+
+      <article class="botones">
+        <a
+          href="registro.html"
+          class="links"
+          target="_blank"
+          id="registro-user"
+        >
+          Registrarse
+        </a>
+
+        <a href="olvido-contrasena.html" class="links" target="_blank">
+          Olvido Contraseña
+        </a>
+      </article>
+    </article>
+  </body>
+</html>
