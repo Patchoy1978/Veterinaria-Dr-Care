@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spa</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/logo veterinaria con nombre.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="mis_estilos.css" />
+  </head>
+
+  <body class="fondo">
+    <header class="">
+      <ul class="ul-menu">
+        <li>Inicio</li>
+        <li>Registro</li>
+        <ul>
+          <li>Registro Usuario</li>
+          <li>Registro Mascota</li>
+        </ul>
+        <li>Servicios</li>
+        <ul>
+          <li>Spa</li>
+          <li>Urgencias</li>
+          <li>Agendar Cita Veterinaria</li>
+          <li>Accesorios</li>
+          <li>Alimentos</li>
+          <li>Medicamentos</li>
+        </ul>
+        <li>Contactenos</li>
+        <li>Quienes Somos</li>
+        <ul>
+          <li>Misión</li>
+          <li>Visipón</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>
+          <img
+            src="img/tienda-online32.png"
+            alt="carrito de compras"
+          /><span></span>
+        </li>
+      </ul>
+    </header>
+
+    <article class="bienvenida">
+      <h1 class="titulo">Agendar cita para Servicio de Spa</h1>
+
+      <form action="" class="formulario">
+        <label for="identificacion" class="label"
+          >Identificación del Solicitante: </label
+        ><br />
+        <input
+          type="number"
+          class="input"
+          id="identificacion"
+          placeholder="Ingresa tú Número de Identificación"
+        />
+        <br />
+        <label for="nombre" class="label">Solicitante del Servicio: </label
+        ><br />
+        <input
+          type="text"
+          class="input"
+          id="nombre"
+          placeholder="Ingresa tú Nombre"
+        />
+        <br /><br />
+        <article class="bienvenida-1-1">
+          <article>
+            <label for="fecha-servicio" class="label"
+              >Fecha del Servicio:
+            </label>
+            <br />
+            <input
+              class="input-1"
+              type="date"
+              name="fecha-servicio"
+              id="fecha-servicio"
+            />
+          </article>
+          <article>
+            <label for="hora-servicio" class="label">Hora del Servicio:</label
+            ><br />
+            <input
+              class="input-1"
+              type="time"
+              name="hora-servicio"
+              id="hora-servicio"
+            />
+          </article>
+        </article>
+        <label for="nombre-mascota" class="label">Nombre de la Mascota: </label
+        ><br />
+        <input
+          type="text"
+          class="input"
+          id="nombre-mascota"
+          placeholder="Ingresa el Nombre de la Mascota"
+        />
+        <br />
+        <label for="valor-servicio" class="label">Valor del Servicio: </label
+        ><br />
+        <input
+          type="number"
+          class="input"
+          id="valor-servicio"
+          placeholder="valor del servicio"
+        />
+      </form>
+
+      <dialog class="manejo-errores" title="Advertencia">
+        <p class="texto-interno">
+          El Servicio Solicitado No Está Disponible en esa Fecha
+        </p>
+        <button class="salir-ventana-emergente">Salir</button>
+      </dialog>
+      <dialog class="manejo-errores" title="Advertencia">
+        <p class="texto-interno">
+          El Servicio Solicitado No Está Disponible en esa Hora
+        </p>
+        <button class="salir-ventana-emergente">Salir</button>
+      </dialog>
+
+      <br /><br />
+
+      <article class="botones">
+        <button class="botones-sistema">Generar Servicio</button>
+        <button class="botones-sistema">Gestionar Pago</button>
+        <button class="botones-sistema">Salir</button>
+      </article>
+      <br /><br />
+    </article>
+  </body>
+</html>
