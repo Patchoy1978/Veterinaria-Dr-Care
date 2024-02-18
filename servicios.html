@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Servicios</title>
+
+    <link
+      rel="shortcut icon"
+      href="img\logo veterinaria con nombre.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="mis_estilos.css" />
+  </head>
+
+  <body class="fondo">
+    <header class="">
+      <ul class="ul-menu">
+        <li>Inicio</li>
+        <li>Registro</li>
+        <ul>
+          <li>Registro Usuario</li>
+          <li>Registro Mascota</li>
+        </ul>
+        <li>Servicios</li>
+        <ul>
+          <li>Spa</li>
+          <li>Urgencias</li>
+          <li>Agendar Cita Veterinaria</li>
+          <li>Accesorios</li>
+          <li>Alimentos</li>
+          <li>Medicamentos</li>
+        </ul>
+        <li>Contactenos</li>
+        <li>Quienes Somos</li>
+        <ul>
+          <li>Misión</li>
+          <li>Visipón</li>
+        </ul>
+      </ul>
+    </header>
+
+    <article class="bienvenida">
+      <h1 class="titulo">Servicios</h1>
+
+      <form action="" class="formulario">
+        <label for="servicios" class="label">Nombre del Servicio: </label><br />
+        <select class="input" name="servicios" id="servicios">
+          <option value=""></option>
+          <option value="Spa">Spa</option>
+        </select>
+        <br />
+
+        <label for="identificacion" class="label"
+          >Identificación del Solicitante: </label
+        ><br />
+        <input
+          type="number"
+          class="input"
+          id="identificacion"
+          placeholder="Ingresa tú Número de Identificación"
+        />
+        <br />
+        <label for="nombre" class="label">Solicitante del Servicio: </label
+        ><br />
+        <input
+          type="text"
+          class="input"
+          id="nombre"
+          placeholder="Ingresa tú Nombre"
+        />
+        <br /><br />
+      </form>
+
+      <dialog class="manejo-errores" title="Advertencia">
+        <p class="texto-interno">El Servicio Solicitado No Está Disponible</p>
+        <button class="salir-ventana-emergente">Salir</button>
+      </dialog>
+
+      <br /><br />
+
+      <article class="botones">
+        <button class="botones-sistema">Ingresar al Servicio</button>
+        <button class="botones-sistema">Salir</button>
+      </article>
+      <br /><br />
+    </article>
+  </body>
+</html>
