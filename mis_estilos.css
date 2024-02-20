@@ -363,3 +363,26 @@ a:visited {
   width:500px;
   height: 500px;
 }
+/*servicios*/
+.servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px; 
+}
+
+.image-servicio {
+  overflow: hidden; 
+  width: 100%; 
+  height: 200px; 
+}
+
+.image-servicio img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+.image-servicio p {
+  text-align: center; /* Centra el texto */
+  margin-top: 5px; /* Agrega un espacio entre la imagen y el texto */
+}
+
