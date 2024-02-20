@@ -381,8 +381,3 @@ a:visited {
   height: 100%; 
   object-fit: cover; 
 }
-.image-servicio p {
-  text-align: center; /* Centra el texto */
-  margin-top: 5px; /* Agrega un espacio entre la imagen y el texto */
-}
-
